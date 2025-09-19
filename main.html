@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Job seek page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="nav">
+      <div class="container nav-bar">
+        <a class="logo" href="#">
+          <img
+            src="https://frontend-mtft.infinityfreeapp.com/week3/logo.svg"
+            alt="Logo"
+          />
+        </a>
+        <nav class="nav-actions">
+          <a class="btn btn-outline" href="#">Sign in</a>
+          <a class="btn btn-primary" href="#">Sign up</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <div>
+      <section class="container hero">
+        <div class="hero-grid">
+          <!-- Left -->
+          <div>
+            <h1>Find your dream<br />job that you love<br />to do.</h1>
+            <p class="lead">
+              The largest remote work community in the world. Sign up and post a
+              job or create your developer profile.
+            </p>
+
+            <form
+              class="searchbar"
+              onsubmit="event.preventDefault(); alert('Search clicked!')"
+            >
+              <input
+                type="text"
+                placeholder="Job Title"
+                aria-label="Job title"
+              />
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+
+            <p class="statline">
+              Currently listing <strong>30,642</strong> jobs from
+              <strong>5,717</strong> companies
+            </p>
+          </div>
+
+          <!-- Right -->
+          <div>
+            <div class="hero-illus">
+              <img
+                class="hero-photo"
+                src="https://frontend-mtft.infinityfreeapp.com/week3/job-hero-section.png"
+                alt="Happy candidate"
+              />
+
+              <img
+                class="float-card fc-top-left"
+                src="https://frontend-mtft.infinityfreeapp.com/week3/job-hero-block-1.png"
+                alt=""
+              />
+
+              <img
+                class="float-card fc-mid-right"
+                src="https://frontend-mtft.infinityfreeapp.com/week3/job-hero-block-2.png"
+                alt=""
+              />
+              <img
+                class="float-card fc-btm-left"
+                src="https://frontend-mtft.infinityfreeapp.com/week3/job-hero-block-3.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Latest Jobs -->
+    <section class="container" style="margin: 28px auto 32px">
+      <div class="eyebrow">Latest job opening</div>
+      <h2 class="section-title">
+        Explore remote friendly, flexible job opportunities.
+      </h2>
+
+      <div class="stack">
+        <!-- Card 1 -->
+        <article class="job-card">
+          <img
+            class="logo"
+            src="https://frontend-mtft.infinityfreeapp.com/week3/job-list-logo-1.svg"
+            alt="HelpDesk logo"
+          />
+          <div class="job-main">
+            <a class="job-title" href="#">Software Engineer (Web3/Crypto)</a>
+            <span class="badge">Featured Job</span>
+            <div class="meta">
+              at HelpDesk · 4.5
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i> · (131
+              Reviews)
+            </div>
+            <div class="meta-row">
+              <span><i class="fa-solid fa-briefcase"></i> 1 – 5 years</span>
+              <span><i class="fa-solid fa-dollar-sign"></i> 12k – 18k</span>
+              <span
+                ><i class="fa-solid fa-location-dot"></i> Ahmedabad,
+                Gujarat</span
+              >
+              <span><i class="fa-regular fa-clock"></i> 21 hours ago</span>
+            </div>
+          </div>
+          <a class="btn btn-sm save" href="#" aria-label="Save job"
+            ><i class="fa-regular fa-bookmark"></i
+          ></a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="job-card">
+          <img
+            class="logo"
+            src="https://frontend-mtft.infinityfreeapp.com/week3/job-list-logo-2.svg"
+            alt="Airtable logo"
+          />
+          <div class="job-main">
+            <a class="job-title" href="#">Senior React Developer</a>
+            <div class="meta">
+              at Airtable · 5.0
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i> · (324
+              Reviews)
+            </div>
+            <div class="meta-row">
+              <span><i class="fa-solid fa-briefcase"></i> 0 – 5 years</span>
+              <span><i class="fa-solid fa-dollar-sign"></i> 5k – 8k</span>
+              <span
+                ><i class="fa-solid fa-location-dot"></i> Jaipur,
+                Rajasthan</span
+              >
+              <span><i class="fa-regular fa-clock"></i> 1 day ago</span>
+            </div>
+          </div>
+          <a class="btn btn-sm save" href="#" aria-label="Save job"
+            ><i class="fa-regular fa-bookmark"></i
+          ></a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="job-card">
+          <img
+            class="logo"
+            src="https://frontend-mtft.infinityfreeapp.com/week3/job-list-logo-3.svg"
+            alt="Square logo"
+          />
+          <div class="job-main">
+            <a class="job-title" href="#">Software Engineer (Web3/Crypto)</a>
+            <div class="meta">
+              at Square · 3.9
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i> · (424
+              Reviews)
+            </div>
+            <div class="meta-row">
+              <span><i class="fa-solid fa-briefcase"></i> 2 – 6 years</span>
+              <span><i class="fa-solid fa-dollar-sign"></i> Not discloses</span>
+              <span
+                ><i class="fa-solid fa-location-dot"></i> Hastsal, Delhi</span
+              >
+              <span><i class="fa-regular fa-clock"></i> 1 day ago</span>
+            </div>
+          </div>
+          <a class="btn btn-sm save" href="#" aria-label="Save job"
+            ><i class="fa-regular fa-bookmark"></i
+          ></a>
+        </article>
+      </div>
+
+      <div class="cta-wrap">
+        <a class="btn btn-outline" href="#">Browse All Jobs Postings</a>
+      </div>
+    </section>
+
+    <!-- Discover -->
+    <section class="container">
+      <div class="roles-panel">
+        <p class="eyebrow">Browse Category</p>
+        <h2 class="section-title">Discover jobs across popular roles</h2>
+        <p class="roles-sub">
+          Select a role and we'll show you relevant jobs for it!
+        </p>
+
+        <div class="role-grid">
+          <a class="role-card" href="#">
+            <span class="role-icon" aria-hidden="true"
+              ><i class="fa-solid fa-palette"></i
+            ></span>
+            <div class="role-body">
+              <div class="role-title">UI / UX Design</div>
+              <div class="role-meta">1k Jobs</div>
+            </div>
+            <span class="role-arrow" aria-hidden="true">›</span>
+          </a>
+
+          <a class="role-card" href="#">
+            <span class="role-icon" aria-hidden="true"
+              ><i class="fa-solid fa-code"></i
+            ></span>
+            <div class="role-body">
+              <div class="role-title">Developer</div>
+              <div class="role-meta">800 Jobs</div>
+            </div>
+            <span class="role-arrow" aria-hidden="true">›</span>
+          </a>
+
+          <a class="role-card" href="#">
+            <span class="role-icon" aria-hidden="true"
+              ><i class="fa-solid fa-users"></i
+            ></span>
+            <div class="role-body">
+              <div class="role-title">Product Manager</div>
+              <div class="role-meta">1.2K Jobs</div>
+            </div>
+            <span class="role-arrow" aria-hidden="true">›</span>
+          </a>
+
+          <a class="role-card" href="#">
+            <span class="role-icon" aria-hidden="true"
+              ><i class="fa-solid fa-building-columns"></i
+            ></span>
+            <div class="role-body">
+              <div class="role-title">Finance</div>
+              <div class="role-meta">5k Jobs</div>
+            </div>
+            <span class="role-arrow" aria-hidden="true">›</span>
+          </a>
+        </div>
+
+        <div class="cta-wrap">
+          <a class="btn btn-outline" href="#">View All Category</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="container">
+      <footer class="site-footer">
+        <div class="footer-top">
+          <!-- Brand / blurb -->
+          <div class="footer-brand">
+            <a class="logo" href="#">
+              <img
+                src="https://frontend-mtft.infinityfreeapp.com/week3/logo.svg"
+                alt="Logo"
+              />
+            </a>
+            <p class="footer-desc">
+              Geek is feature-rich components and beautifully Bootstrap UIKit
+              for developers, built with bootstrap responsive framework.
+            </p>
+            <ul class="socials" aria-label="Social links">
+              <li>
+                <a href="#" aria-label="Facebook">
+                  <!-- Facebook SVG -->
+                  <i class="fa-brands fa-facebook" style="color: #744ffe"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Twitter">
+                  <!-- Twitter/X SVG -->
+                  <i class="fa-brands fa-twitter" style="color: #744ffe"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Instagram">
+                  <!-- Instagram SVG -->
+                  <i class="fa-brands fa-instagram" style="color: #744ffe"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <nav class="footer-col" aria-labelledby="ft-company">
+            <h4 id="ft-company">Company</h4>
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- Support -->
+          <nav class="footer-col" aria-labelledby="ft-support">
+            <h4 id="ft-support">Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">Help and Support</a></li>
+              <li><a href="#">Become Instructor</a></li>
+              <li><a href="#">Get the app</a></li>
+              <li><a href="#">FAQ’s</a></li>
+              <li><a href="#">Tutorial</a></li>
+            </ul>
+          </nav>
+
+          <!-- Get in touch -->
+          <div class="footer-col footer-get">
+            <h4>Get in touch</h4>
+            <address>
+              339 McDermott Points<br />
+              Hettingerhaven, NV 15283
+            </address>
+            <p>
+              Email:
+              <a href="mailto:support@geeksui.com">support@geeksui.com</a>
+            </p>
+            <p>Phone: <strong>(000) 123 456 789</strong></p>
+          </div>
+        </div>
+
+        <!-- Legal row -->
+        <div class="footer-legal">
+          <div>© 2025 Geeks-UI, Inc. All Rights Reserved</div>
+          <ul class="footer-legal-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Notice</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
